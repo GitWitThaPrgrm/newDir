@@ -5,11 +5,9 @@
   }
 body {
     font-family: Helvetica, Arial, sans-serif;
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
-  /* apply styles to <header> */
 header {
     background-color: #39a6b2;
     padding-top: 10px;
@@ -68,23 +66,16 @@ header {
   }
   section {
     padding: 60px;
-    /* background-image: url("/Users/user/Desktop/projects/run-buddy/assets/images/hero-bg.jpeg"); */
-    
   }
-  .hero {
-    background-image: url("/Users/user/Desktop/projects/run-buddy/assets/images/hero-bg.jpeg");
+ .hero {
+    background-image: url("/Users/home/Desktop/newDir/assets/images/hero-bg.jpeg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
   }
-  .hero-form {
-    /* background-color: #fce138;
-    padding: 20px;
-    width: 500px;
-    color: #024e76;
-    border: solid 3px #024e76; */
-    border: 3px solid #024e76;
+  .hero-form {  
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
@@ -92,7 +83,7 @@ header {
   position: absolute;
   bottom: 120px;
   right: 140px;
-  }
+}
   .hero-form p {
     margin: 5px 0 15px 0;
   }
@@ -256,4 +247,3 @@ header {
     color: #fce138;
   }
   
-  /* REACH OUT STYLES END */
